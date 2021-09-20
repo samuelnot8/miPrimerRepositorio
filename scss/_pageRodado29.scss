@@ -1,0 +1,22 @@
+/* Productos bicis */
+/* Aplicacion bem */
+.informacion {  /* Bloque */
+    /* border-top: 5px solid rgb(255, 166, 0); */
+    display: flex;
+    flex-flow: column;
+}
+
+.informacion__nombreArticulo { /* elemento */
+    font-size: 20px;
+}
+
+
+.informacion__tipoDeEnvio { /* elemento */
+    color: rgb(0, 156, 80);
+}
+
+.card--efecto:hover { /* bloque */
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px #BDBDBD;
+}
+

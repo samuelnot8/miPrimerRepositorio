@@ -1,0 +1,57 @@
+/* fOOTER estilos */
+footer {
+    width: 100%;
+    background-image: linear-gradient(to left, #FBC02D, #FFEB3B );
+    padding: 50px 0 ;
+
+}
+.conteiner-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+.box-footer {
+    display: flex;
+    flex-direction: column;
+} 
+.box-footer .logo_ img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+.box-footer .terms {
+    max-width: 250px;
+    margin-top: 20px;
+    font-weight: 500px;
+    font-size: 18px;
+}
+.box-footer h2 {
+     margin-bottom: 30px;
+     color: #370617;
+     font-weight: 700;
+
+}
+.box-footer a {
+    margin-top: 10px;
+    color: #6a040f;
+    font-weight: 600;
+}
+.box-footer a .fab  {
+    font-size: 20px;
+}
+.box-copyright {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;  
+}
+.box-copyright p {
+    margin-top: 20px;
+    color: #370617;
+}
+.box-copyright hr {
+    border: none;
+    height: 2px  #212121 ;
+}

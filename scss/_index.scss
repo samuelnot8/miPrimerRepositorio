@@ -1,0 +1,106 @@
+/* Index */
+
+.logo a {
+    text-decoration: none;
+    color: #212121;
+    font-size: 35px;
+    padding:   100px ;
+    font-weight: bold;
+    
+
+}
+
+
+ /* lOGO */
+@keyframes rotacion {
+    
+    from{transform: rotateZ(0deg);}
+    to{transform:rotateZ(360deg);}
+}
+.rotacion{
+    margin: auto;
+    max-width: 100px;
+    border-radius: 100%;
+    animation-name: rotacion;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.rotacion__altura {
+    width:70px;
+     height:70px ;
+}
+
+/* Aplicacion Bootstrap carrousel */    /* Aplicacion bem */
+.carrousel{     /* Elemento bloque  */
+ 
+    display: flex;
+    
+    justify-content: center;
+}
+.carrousel__imagen {  /* Elemento */
+    border-radius: 15%;
+    margin: 100px ;
+    max-width:  450px;
+    
+}
+.carrousel__boton{ /* Elemento */
+    font-size: 20px;
+    background-color: #FFEB3B; border-radius: 20%;
+}
+
+.carrousel--colorfondo {   /* Modificador */
+    border-radius:  10%  ;
+    
+    background-image: linear-gradient(to top, #FBC02D, #BDBDBD );
+}
+
+
+/* Menu bootstrap */
+
+.navbar__color{
+    background-color: #FFEB3B; 
+}
+ .navbar-nav li:hover>ul.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu {
+    position: relative;
+}
+.dropdown-submenu> .dropdown-menu {
+    top: 0;
+    margin-top: -5px;
+    left: 100%;
+}
+.dropdown-menu>li>a:hover::after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+} 
+/* Productos destacados */
+/* Cards */
+
+.card--altura { /* Modificador */
+    
+    width: 15rem;
+}
+.botonColor {
+    background-color: #FBC02D;
+}
+
+/* Iconos en el Index */
+
+.container__icono  {
+    float: left;
+    width: 30%;
+    padding-right: 0;
+    margin-top: 0;
+    font-size: 3rem;
+    
+}
+
+
+
+
+
+
+

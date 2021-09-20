@@ -1,0 +1,46 @@
+/* Pag sucursal */
+
+//Variables
+$marginTop : 50px;
+$marginBottom : 10px;
+
+
+/* Aplicando Operacioness, variables, extend */
+.container__sucursal   {
+    margin-top:  ($marginTop - 25px);
+    margin-bottom: ($marginBottom + 15px);
+    
+}
+.container__card{
+    margin: auto;
+    background-color: #FFEB3B !important; 
+}
+.container__iframe {
+    margin: auto;
+    margin-top:  ($marginTop - 25px);
+}
+.container__boton{
+    @extend .botonColor
+};
+
+/* Mapeos */
+  
+$colores: (
+   color1: red,
+   color2: blue,
+   color3 : green ,
+   color4: pink,
+   color5: #FBC02D,
+
+
+);
+ $parrafo: map-get($colores, color5 );
+
+.container__parrafo {
+    background-color: $parrafo;
+};
+ 
+
+
+
+
