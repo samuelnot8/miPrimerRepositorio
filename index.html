@@ -6,6 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Estas buscando tu nueva Bici? Visita Bikes AT tenemos las mejores Bicis y accesorios! ">
   <meta name="keywords" content="Bicicletas, Ruedas, camaras, llantas, Bicis Rodado29, Mountain Bike">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+  integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+  crossorigin="anonymous" />
+<link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+  integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+  crossorigin="anonymous" />
   <link rel="stylesheet" href="./bootstrap-5.1.0-dist/css/bootstrap.min.css"> 
   <link  rel="stylesheet"   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="stylesheet" href="./css/style.css">
@@ -22,10 +29,12 @@
 
     <nav class="navbar navbar-expand-lg navbar-light navbar__color " >
       <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img class="rotacion rotacion__altura" src="./img/bicis/logo.jpg" alt="" >
-          </a>
-          <label  class="  logo animate__animated animate__rubberBand"> <a href="index.html">BIKES AT</a> </label>
+        <a class="navbar-brand" href="index.html">
+          <div class=" logo">
+            <img class="img-fluid  " src="./img/logo/logo.png" alt="bikes-at-logo">
+          </div>
+        </a>
+        
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,14 +52,14 @@
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"  >
                 <li class="dropdown-submenu" >
-                  <a class="dropdown-item dropdown-toggle " href="./pestañas/bicis-rodado29.html">Bicicletas</a>
+                  <a class="dropdown-item dropdown-toggle " href="#">Bicicletas</a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="./pestañas/bicis-rodado26.html">rodado 26</a></li>
                    <li><a class="dropdown-item" href="./pestañas/bicis-rodado27.5.html">rodado 27,5</a></li>
                     <li><a class="dropdown-item" href="./pestañas/bicis-rodado29.html">rodado 29</a></li>
                 </ul>
               </li>
-                <li class="dropdown-submenu" ><a class="dropdown-item dropdown-toggle" href="./pestañas/bicis-rodado29.html">Ruedas</a>
+                <li class="dropdown-submenu" ><a class="dropdown-item dropdown-toggle" href="#">Ruedas</a>
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="./pestañas/cubiertas.html">Cubiertas</a></li>
                      <li><a class="dropdown-item" href="./pestañas/camaras.html">Camaras</a></li>
@@ -84,6 +93,7 @@
             <li class="nav-item">
               <a class="nav-link" href="./pages/sucursales.html">Sucursal</a>
             </li>
+            
             <li class="nav-item">
               <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
             </li>
@@ -108,202 +118,162 @@
 
     <main class="main ">
       <!-- Carrousel -->
-
-<div class="carrousel carrousel--colorfondo">
+      <div class="carrousel carrousel--colorfondo">
         
-  <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="./img/bicis/bici-gian.png" class="carrousel__imagen" alt="bici-gian">
-        <div class="carousel-caption d-none d-md-block  carrousel--colorfondo">
-          <h5>BICICLETA GIANT TALON 4
-            29ER (2021) M|S</h5>
-          <p> 
-            Envio Gratis
-            En Stock
-            $ 108.991.06 <br> <br>
-            <button class="carrousel__boton" >Comprar</button>
-          </p>
+        <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/bicis/carrousel.jpg" class="carrousel__imagen" alt="bici-gian">
+              <div class="carousel-caption d-none d-md-block  ">
+                
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/bicis/595581-banner.w1900.jpg" class="carrousel__imagen img-fluid  "alt="bici-teknial">
+              <div class="carousel-caption d-none d-md-block  ">
+               
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/bicis/unnamed.jpg" class="carrousel__imagen "alt="bici-volta-viggo" data>
+              <div class="carousel-caption d-none d-md-block   ">
+                
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
-      <div class="carousel-item">
-        <img src="./img/bicis/bici-teknial.png" class="carrousel__imagen "alt="bici-teknial">
-        <div class="carousel-caption d-none d-md-block  carrousel--colorfondo">
-          <h5 class="color-btn">
-            BICICLETA TEKNIAL TARPAN
-            400B NEGRO/VERDE TALLE M</h5>
-          <p>
-            Envio Gratis
-            En Stock
-            $ 97.999,72 <br> <br>
-            <button class="carrousel__boton" >Comprar</button>
-          </p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="./img/bicis/bici-volta-viggo.png" class="carrousel__imagen "alt="bici-volta-viggo" data>
-        <div class="carousel-caption d-none d-md-block  carrousel--colorfondo ">
-          <h5>BICICLETA VOLTA VIGGO 29ER L</h5>
-          <p>
-            Envio Gratis
-            En Stock
-           $ 94.054,83 <br> <br>
-           <button class="carrousel__boton" >Comprar</button> </p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</div>
-
 
 <!-- Iconos  -->
-      <div class="container mb-4 mt-4">
-        <div class=" row row-cols-lg-3 row-cols-md-2 row-cols-sm-1  row-cols-1 container__divs ">
-        <div  class="col container__col">
-        <h5 class="container__Titulo" >
-           <i  class="fas fa-shipping-fast container__icono"> </i>  
-          
-          
-          <span class="">
-            <strong>
-              Envios a domicilio 
-            </strong>
-            <br>
-            <span>A todo el pais</span>
-          </span>
 
-        </h5>
+      <div class="container  text-center container__icono  mb-5 mt-5">
+        <div class=" row row-cols-lg-3 row-cols-md-3 row-cols-sm-3  row-cols-3 container__divs ">
+        <div  class="col container__divs1">
+          <svg viewbox="0 0 24 24 " xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M3 18h-2c-.552 0-1-.448-1-1v-13c0-.552.448-1 1-1h13c.552 0 1 .448 1 1v2h4.667c1.117 0 1.6.576 1.936 1.107.594.94 1.536 2.432 2.109 3.378.188.312.288.67.288 1.035v4.48c0 1.089-.743 2-2 2h-1c0 1.656-1.344 3-3 3s-3-1.344-3-3h-6c0 1.656-1.344 3-3 3s-3-1.344-3-3zm3-1.2c.662 0 1.2.538 1.2 1.2 0 .662-.538 1.2-1.2 1.2-.662 0-1.2-.538-1.2-1.2 0-.662.538-1.2 1.2-1.2zm12 0c.662 0 1.2.538 1.2 1.2 0 .662-.538 1.2-1.2 1.2-.662 0-1.2-.538-1.2-1.2 0-.662.538-1.2 1.2-1.2zm-3-2.8h-13v2h1.765c.549-.614 1.347-1 2.235-1 .888 0 1.686.386 2.235 1h7.53c.549-.614 1.347-1 2.235-1 .888 0 1.686.386 2.235 1h1.765v-4.575l-1.711-2.929c-.179-.307-.508-.496-.863-.496h-4.426v6zm-2-9h-11v7h11v-7zm3 4v3h5l-1.427-2.496c-.178-.312-.509-.504-.868-.504h-2.705z"/></svg>
+         <p>Envios a Domicilio</p>
         </div>
-        <div class="col container__divs">
-        <h5 class="container__Titulo ">
-          <i class="fas fa-sync-alt container__icono "></i>
-          <span>
-            <strong>
-              Cambios y devoluciones 
-            </strong>
-            <br>
-            <span>A todo el pais</span>
-          </span>
-
-          
-        </h5>
+        <div class="col  container__divs2">
+          <svg xmlns="http://www.w3.org/2000/svg"  viewbox="0 0 24 24"><path d="M12 0c-3.31 0-6.291 1.353-8.459 3.522l-2.48-2.48-1.061 7.341 7.437-.966-2.489-2.488c1.808-1.808 4.299-2.929 7.052-2.929 5.514 0 10 4.486 10 10s-4.486 10-10 10c-3.872 0-7.229-2.216-8.89-5.443l-1.717 1.046c2.012 3.803 6.005 6.397 10.607 6.397 6.627 0 12-5.373 12-12s-5.373-12-12-12z"/></svg>
+          <p>Cambios y devoluciones </p>  
       </div>
-      <div class="col container__divs">
-
-        <h5 class="container__Titulo" >
-          <i class="fab fa-cc-visa container__icono"></i>
-          <span>
-            <strong>
-             Todos los medios de pagos
-            </strong>
-            <br>
-            <span>Ahora 12 y 18</span>
-          </span>
-          
-        </h5>
+      <div class="col container__divs3">
+          <svg xmlns="http://www.w3.org/2000/svg"  viewbox="0 0 24 24"><path d="M4.062 16.626c-.165-.5.038-.921.656-1.145l3.249-1.155-.134 1.028c-.077.589-.103 1.107-.089 1.573-.25.078-1.095.339-1.945.552-.871.218-1.538-.25-1.737-.853zm1.745 1.916c-.461.167-.612.48-.489.854.147.449.645.798 1.294.635.606-.151 1.408-.396 1.701-.487-.203-.505-.378-1.035-.479-1.659l-2.027.657zm.193-10.542h2.643l.128-1h-2.771v1zm16-6v9c0 1.104-.896 2-2 2h-1.989l.015.02c-.031.43-.105.906-.222 1.457-.451 2.144-1.637 5.122-.83 8.418-2.312.356-3.651.523-5.992 1.105-.273-4.062-2.266-4.943-1.804-8.47.542-4.137.844-6.461 1.196-9.255.11-.879.731-1.307 1.337-1.307.631 0 1.246.464 1.252 1.366.021 3.303.108 6.593.324 7.393.146.54 1.087.638 1.087-.512l-.002-2.216h5.128c.276 0 .5-.224.5-.5v-4.499h-5.568c-.157-1.461-1.27-2.531-2.721-2.531h-.001c-1.44 0-2.578 1.038-2.806 2.531h-4.904v4.5c0 .276.224.5.5.5h3.757l-.261 2h-3.996c-1.104 0-2-.896-2-2v-9c0-1.104.896-2 2-2h16c1.104 0 2 .896 2 2zm-2 .5c0-.276-.224-.5-.5-.5h-15c-.276 0-.5.224-.5.5v.5h16v-.5zm-14 7.5h2.386l.129-1h-2.515v1zm12-3h-3v1h3v-1z"/></svg> 
+          <p> Todos los medios de pagos</p>  
       </div>
     
   </div>
 </div>
       
     
-    <h1 class=" text-center mt-3" > Productos Destacados</h1>
+<h1 class="text-center fw-bold display-1 mb-5"> <span class="titulo__Destacados" >Productos Destacados</span></h1>
     </main>
       
+
+
 <!-- Productos Destacados -->
-  <section class="section" >
+  <section class="section " >
+   
+    <div class="container-fluid my-5 " >
+      
+      <div class="row">
+          <div class="col-9 m-auto">
+              <div class="owl-carousel owl-theme owl-carrousel">
+                  <div class="item ">
+                    <div class="card  card--altura  ">
+                      <img src="./img/Productos-destacados/cuadro-vairo.jpg" class=" card-img-top img-fluid " alt="cuadro-vairo">
+                      <div class="card-body">
+                        <h5 class="card-title owl__carrousel--h5">Cuadro Vairo </h5>
+                        <p class="card-text owl__carrousel--precio"><strong> $91.560,00</strong></p>
+                        <a href="#" class="btn botonColor">Ver producto</a>
+                      </div>
+                    </div> 
+                  </div>
+
+                  <div class="item"> 
+                    <div class="card card--altura  " >
+                      <img src="./img/Productos-destacados/Grupo-asientos-300x300.jpg" class="card-img-top" alt="asiento-bici">
+                      <div class="card-body">
+                        <h5 class="card-title owl__carrousel--h5">Asiento Vairo  </h5>
+                        <p class="card-text owl__carrousel--precio"><span>$2.990,00</span></p>
+                        <a href="#" class="btn botonColor">Ver producto</a>
+                      </div>
+                    </div>
+                      
+                  </div>
+                  <div class="item">
+                    <div class="card  card--altura " >
+                      <img src="./img/Productos-destacados/manillar-de-ruta.jpg" class="card-img-top " alt="manillar-de-ruta-bici">
+                      <div class="card-body">
+                        <h5 class="card-title owl__carrousel--h5">Manillar  easton </h5> 
+                        <p class="card-text owl__carrousel--precio"> <span>$27.000,00</span></p>
+                        <a href="#" class="btn botonColor">Ver producto</a>
+                      </div>
+                    </div> 
+                  </div>
+                  <div class="item">
+                    <div class="card card--altura " >
+                      <img src="./img/Productos-destacados/vela-race.jpg" class="card-img-top" alt="vela-race-bici">
+                      <div class="card-body ">
+                        <h5 class="card-title owl__carrousel--h5">Vela Race F-Ride</h5>
+                        <p class="card-text owl__carrousel--precio">   <span>$4.233,00</span></p>
+                        <a href="#" class="btn botonColor">Ver producto </a>
+                      </div>
+                    </div> 
+                  </div>
+                  
+                  
+
+              </div>
+          </div>
+      </div>
+  </div>
+
      
-
-    <div class="container mb-4 mt-4 ">
-      <div class=" row row-cols-lg-4 row-cols-md-2 row-cols-auto ">
-                
-       
-          <div class="col mb-4  ">
-          <div class="card card--altura">
-            <img src="./img/Productos-destacados/cuadro-vairo.jpg" class="card-img-top" alt="cuadro-vairo">
-            <div class="card-body">
-              <h5 class="card-title">Cuadro Vairo Zk1 Dh 26″</h5>
-              <p class="card-text"><strong> $91.560,00</strong></p>
-              <a href="#" class="btn botonColor">Ver producto</a>
-            </div>
-          </div> 
-        </div>
-        <div class="col  ">
-          <div class="card card--altura  " >
-            <img src="./img/Productos-destacados/Grupo-asientos-300x300.jpg" class="card-img-top" alt="asiento-bici">
-            <div class="card-body">
-              <h5 class="card-title"><span>Asiento Vairo Vl-1353</span></h5>
-              <p class="card-text"><span>$2.990,00</span></p>
-              <a href="#" class="btn botonColor">Ver producto</a>
-            </div>
-          </div> 
-        </div>
-        <div class="col ">
-          <div class="card card--altura   " >
-            <img src="./img/Productos-destacados/manillar-de-ruta.jpg" class="card-img-top " alt="manillar-de-ruta-bici">
-            <div class="card-body">
-              <h5 class="card-title"><span>Manillar de ruta easton </span></h5> 
-              <p class="card-text"> <span>$27.000,00</span></p>
-              <a href="#" class="btn botonColor">Ver producto</a>
-            </div>
-          </div> 
-        </div>
-          <div class="col ">
-          <div class="card card--altura  " >
-            <img src="./img/Productos-destacados/vela-race.jpg" class="card-img-top" alt="vela-race-bici">
-            <div class="card-body ">
-              <h5 class="card-title"><span>Vela Race Face Ride</span></h5>
-              <p class="card-text">   <span>$4.233,00</span></p>
-              <a href="#" class="btn botonColor">Ver producto </a>
-            </div>
-          </div> 
-        </div>
-      </div>
-
-        </div>
+  
+    
         
-      </div>
-    </div>
+     
+    
     
        
     </section>
   </div>
 
   <!-- Footer -->
-    <footer id="grad"  class="footer" >
-     <div class="conteiner-footer">
+    <footer id="grad"  class="footer " >
+     <div class="conteiner-footer ">
       
 
 
        <div class="box-footer">
-         <div class="logo_">
-           <img src="./img/bicis/logo.jpg" alt="">
-         </div>
+        <div class=" logo">
+          <img class="img-fluid  " src="./img/logo/logo.png" alt="bikes-at-logo">
+        </div>
          <div class="terms">
            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, </p>
          </div>
        </div>
-       <div class="box-footer">
+       <div class="box-footer ">
          <h2>Soluciones</h2>
          <a href="">Contacto</a>
          <a href="">Reclamos & Garantias</a>
          <a href="">Terminos-y-condiciones</a>
          <a href="">Politica de Privacidad</a>
        </div>
-       <div class="box-footer">
+       <div class="box-footer ">
         <h2>Redes Sociales</h2>
         <a href=""  > <i class="fab fa-facebook"></i>  Facebook</a>
         <a href=""> <i class="fab fa-instagram"></i> Instagram</a>
@@ -321,8 +291,42 @@
 
     </footer>
   </div>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"></script>
+  <script>
+      $('.owl-carousel').owlCarousel({
+       
+  
+          loop: true,
+          autoplay: 500,
+          margin: 15,
+          nav: true,
+          responsive: {
+              0: {
+                  items: 2
+              },
+              600: {
+                  items: 2
+              },
+              1000: {
+                  items: 4
+              }
+          }
+      })
+  </script>
+  
+
+
   <script src="https://kit.fontawesome.com/7520ca42af.js" crossorigin="anonymous"></script>
   <script src="./bootstrap-5.1.0-dist/js/bootstrap.min.js"></script>
+</div>
 </body>
 
 </html>

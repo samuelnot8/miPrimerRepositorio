@@ -1,35 +1,13 @@
 /* Index */
 
-.logo a {
-    text-decoration: none;
-    color: #212121;
-    font-size: 35px;
-    padding:   100px ;
-    font-weight: bold;
-    
-
+.logo  {
+    width: 129px;
+    height: 103px;
+    margin-right: 20px;
+  
 }
 
 
- /* lOGO */
-@keyframes rotacion {
-    
-    from{transform: rotateZ(0deg);}
-    to{transform:rotateZ(360deg);}
-}
-.rotacion{
-    margin: auto;
-    max-width: 100px;
-    border-radius: 100%;
-    animation-name: rotacion;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-.rotacion__altura {
-    width:70px;
-     height:70px ;
-}
 
 /* Aplicacion Bootstrap carrousel */    /* Aplicacion bem */
 .carrousel{     /* Elemento bloque  */
@@ -39,11 +17,12 @@
     justify-content: center;
 }
 .carrousel__imagen {  /* Elemento */
-    border-radius: 15%;
-    margin: 100px ;
-    max-width:  450px;
-    
+   max-width: 100%;
+   height: auto;
+   width: 1400px;
+   
 }
+
 .carrousel__boton{ /* Elemento */
     font-size: 20px;
     background-color: #FFEB3B; border-radius: 20%;
@@ -81,7 +60,11 @@
 
 .card--altura { /* Modificador */
     
-    width: 15rem;
+       max-width: 230px;
+       max-height: auto;
+        width: 100%;
+        height: 100%;
+    
 }
 .botonColor {
     background-color: #FBC02D;
@@ -89,18 +72,12 @@
 
 /* Iconos en el Index */
 
-.container__icono  {
-    float: left;
-    width: 30%;
-    padding-right: 0;
-    margin-top: 0;
-    font-size: 3rem;
-    
+.container__icono   {
+  
+   
 }
 
-
-
-
-
-
-
+.col svg{
+    width: 64px;
+    margin-bottom: 10px;
+}

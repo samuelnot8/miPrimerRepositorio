@@ -16,6 +16,8 @@ $marginBottom : 10px;
     background-color: #FFEB3B !important; 
 }
 .container__iframe {
+    width: 100%;
+    height: 100%;
     margin: auto;
     margin-top:  ($marginTop - 25px);
 }

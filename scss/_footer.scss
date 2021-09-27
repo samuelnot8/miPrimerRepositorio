@@ -1,8 +1,9 @@
 /* fOOTER estilos */
 footer {
+    
     width: 100%;
     background-image: linear-gradient(to left, #FBC02D, #FFEB3B );
-    padding: 50px 0 ;
+    padding: 20px  ;
 
 }
 .conteiner-footer {
@@ -16,6 +17,7 @@ footer {
 .box-footer {
     display: flex;
     flex-direction: column;
+   
 } 
 .box-footer .logo_ img {
     max-width: 100px;
