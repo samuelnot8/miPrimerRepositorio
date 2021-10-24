@@ -1,47 +1,56 @@
 /* Pag sucursal */
+.container_sucursal {
+max-width: 1170px;
+margin-left: auto;
+margin-right: auto;
+padding: 1.3em;
 
-//Variables
-$marginTop : 50px;
-$marginBottom : 10px;
 
-
-/* Aplicando Operacioness, variables, extend */
-.container__sucursal   {
-    margin-top:  ($marginTop - 25px);
-    margin-bottom: ($marginBottom + 15px);
+}
+.sucursal__titulo {
+    text-align: center;
+    font-size: 3em;
+}
+.sucursal__contenido > * {
+    padding: 1em;
+}
+ .sucursal__contenido{
+    height: 500px;
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
     
+} 
+
+/* Sucursal mapa */
+.sucursal__mapa{
+
+    background-color: #FFEB3B;
 }
-.container__card{
-    margin: auto;
-    background-color: #FFEB3B !important; 
+.sucursal__iframe {
+margin: 2px;
+width: 100%;
+height: 70%;
+    
+
 }
-.container__iframe {
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    margin-top:  ($marginTop - 25px);
-}
-.container__boton{
-    @extend .botonColor
-};
-
-/* Mapeos */
-  
-$colores: (
-   color1: red,
-   color2: blue,
-   color3 : green ,
-   color4: pink,
-   color5: #FBC02D,
-
-
-);
- $parrafo: map-get($colores, color5 );
-
-.container__parrafo {
-    background-color: $parrafo;
-};
  
+/* Sucursal Info */
+.sucursal__info {
+   
+background-color:  #FBC02D;
+}
+.sucursal__info > ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+ 
+
+
+
+
+
 
 
 

@@ -1,8 +1,9 @@
 body {
-  background-color: #FFF9C4;
-  font-family: 'Anton', sans-serif;
+  background-color: #f5f4f4;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  color: #212529; }
 
 /* * Grids */
 #container {
@@ -86,55 +87,13 @@ body {
   width: 100%;
   height: 100%; }
 
-.botonColor, .container__boton {
+.botonColor {
   background-color: #FBC02D; }
 
 /* Iconos en el Index */
 .col svg {
   width: 64px;
   margin-bottom: 10px; }
-
-/* Aplicacion de Mobile */
-@media screen and (max-width: 500px) {
-  .col svg {
-    width: 25px;
-    margin-bottom: 5px; }
-  .div, .col, .container__divs1, .container__divs2, .container__divs3 {
-    padding: 0 !important; }
-  .titulo__Destacados {
-    font-size: 50%; }
-  .owl-carrousel {
-    max-width: 120%;
-    height: 100%;
-    padding-right: 0px !important;
-    padding-left: 0px !important; }
-  .owl__carrousel--h5 {
-    margin: 0px  !important;
-    font-size: 70% !important; }
-  .owl__carrousel--precio {
-    font-size: 70% !important; }
-  .botonColor, .container__boton {
-    font-size: 50%  !important; } }
-
-/* Pag sucursal */
-/* Aplicando Operacioness, variables, extend */
-.container__sucursal {
-  margin-top: 25px;
-  margin-bottom: 25px; }
-
-.container__card {
-  margin: auto;
-  background-color: #FFEB3B !important; }
-
-.container__iframe {
-  width: 100%;
-  height: 100%;
-  margin: auto;
-  margin-top: 25px; }
-
-/* Mapeos */
-.container__parrafo {
-  background-color: #FBC02D; }
 
 /* Productos bicis */
 /* Aplicacion bem */
@@ -157,11 +116,169 @@ body {
   transform: translateY(-15px);
   box-shadow: 0 12px 16px #BDBDBD; }
 
-/* Pag contact */
-.formulario {
-  border-radius: 10% #fff;
-  display: flex;
-  justify-content: center; }
+.contenido-contacto {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em; }
+
+.contact-info > ul {
+  list-style: none;
+  padding: 0; }
+
+.logo-contacto {
+  text-align: center;
+  font-size: 3em; }
+
+.logo-contacto span {
+  color: #B70E21; }
+
+.contact-wrapper > * {
+  padding: 1em; }
+
+.contact-form {
+  background: #FBC02D; }
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+.contact-form form label {
+  display: block; }
+
+.contact-form form p {
+  margin: 0;
+  padding: 1em; }
+
+.contact-form form .block {
+  grid-column: 1 / 3; }
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: .7em;
+  border: none;
+  background: none;
+  outline: 0;
+  border-bottom: 1px solid #f5f4f4; }
+
+.contact-form form button {
+  background: #757575;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em; }
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+  background: #969595;
+  color: #fff;
+  transition: background-color 1s ease-out;
+  outline: 0; }
+
+/* CONTACT INFO */
+.contact-info {
+  background: #FFEB3B; }
+
+.contact-info h4, .contact-info ul, .contact-info p {
+  text-align: center;
+  margin: 0 0 1rem 0; }
+
+.contact-info > ul {
+  list-style: none;
+  padding: 0; }
+
+/* Pag sucursal */
+.container_sucursal {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.3em; }
+
+.sucursal__titulo {
+  text-align: center;
+  font-size: 3em; }
+
+.sucursal__contenido > * {
+  padding: 1em; }
+
+.sucursal__contenido {
+  height: 500px;
+  display: grid;
+  grid-template-columns: 2fr 1fr; }
+
+/* Sucursal mapa */
+.sucursal__mapa {
+  background-color: #FFEB3B; }
+
+.sucursal__iframe {
+  margin: 2px;
+  width: 100%;
+  height: 70%; }
+
+/* Sucursal Info */
+.sucursal__info {
+  background-color: #FBC02D; }
+
+.sucursal__info > ul {
+  list-style: none;
+  padding: 0; }
+
+/* Aplicacion de Mobile */
+@media screen and (max-width: 500px) {
+  .col svg {
+    width: 25px;
+    margin-bottom: 5px; }
+  .div, .col, .container__divs1, .container__divs2, .container__divs3 {
+    padding: 0 !important; }
+  .titulo__Destacados {
+    font-size: 50%; }
+  .owl-carrousel {
+    max-width: 120%;
+    height: 100%;
+    padding-right: 0px !important;
+    padding-left: 0px !important; }
+  .owl__carrousel--h5 {
+    margin: 0px  !important;
+    font-size: 70% !important; }
+  .owl__carrousel--precio {
+    font-size: 70% !important; }
+  .botonColor {
+    font-size: 50%  !important; } }
+
+/* Media Query CONTACTO */
+@media (min-width: 700px) {
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr; }
+  .contact-wrapper > * {
+    padding: 2em; }
+  .contact-info h4,
+  .contact-info ul,
+  .contact-info p {
+    text-align: left; } }
+
+/* Media Query SUCURSAL */
+@media (max-width: 700px) {
+  .sucursal__contenido {
+    height: 50%;
+    display: grid;
+    grid-template-columns: 2fr; }
+  .sucursal__contenido > * {
+    padding: 2em; }
+  .sucursal__iframe {
+    width: 100%;
+    height: 50%; }
+  .sucursal__info h4,
+  .sucursal__info ul,
+  .sucursal__info p {
+    text-align: left; } }
+
+/* Media Query SUCURSAL */
+@media screen and (max-width: 330px) {
+  .sucursal__iframe {
+    width: 100%;
+    height: auto; } }
 
 /* fOOTER estilos */
 footer {
